@@ -84,7 +84,7 @@ Node* floydAlgo(Node* &head)
        {
             return NULL;
        }
-       slow=head;;
+       slow=head;
        {
         while(slow!=fast)
         {
