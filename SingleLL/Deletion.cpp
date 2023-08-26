@@ -83,6 +83,7 @@ void deletenode(int position, Node *&head)
         head = head->next;
         temp->next = NULL;
         delete temp;
+        return;
     }
     else
     {
